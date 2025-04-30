@@ -10,8 +10,8 @@ import {
   getDefaultConfig,
 } from "connectkit";
 
-import "dynamic-global-wallet/eip6963";
-import "dynamic-global-wallet/solana-standard";
+import "dynamic-global-wallet/ethereum";
+import "dynamic-global-wallet/solana";
 
 const config = createConfig(
   getDefaultConfig({

@@ -12,8 +12,8 @@ import { WagmiProvider } from "wagmi";
 import { mainnet, polygon, optimism, arbitrum, base } from "wagmi/chains";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
-import "dynamic-global-wallet/eip6963";
-import "dynamic-global-wallet/solana-standard";
+import "dynamic-global-wallet/ethereum";
+import "dynamic-global-wallet/solana";
 
 const queryClient = new QueryClient();
 

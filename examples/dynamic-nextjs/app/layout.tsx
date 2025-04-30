@@ -7,8 +7,8 @@ import Providers from "@/lib/providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
-import "dynamic-global-wallet/eip6963";
-import "dynamic-global-wallet/solana-standard";
+import "dynamic-global-wallet/ethereum";
+import "dynamic-global-wallet/solana";
 
 export default function RootLayout({
   children,
