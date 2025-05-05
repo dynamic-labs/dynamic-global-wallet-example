@@ -12,6 +12,7 @@
     "privy-vite": "pnpm -F privy-vite dev",
     "rainbowkit-vite": "pnpm -F rainbowkit-vite dev",
     "connectkit-vite": "pnpm -F connectkit-vite dev",
+    "native-api": "pnpm -F native-api dev",
     "build-dynamic-global-wallet": "pnpm -F dynamic-global-wallet build"
   },
   "keywords": [],
